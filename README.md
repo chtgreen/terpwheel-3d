@@ -65,3 +65,8 @@ npm create vite@latest terpwheel-3d -- --template react
 cd terpwheel-3d
 npm install
 npm install three @react-three/fiber @react-three/drei
+```
+
+When pushing to `main`, a GitHub Actions workflow builds the site and publishes
+it to the `gh-pages` branch. Once the workflow completes, the app is available
+at `https://<your-github-username>.github.io/terpwheel-3d/`.
